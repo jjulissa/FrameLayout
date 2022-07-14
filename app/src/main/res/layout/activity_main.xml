@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+
+    <!-- match_parent, PranToutEspasLa
+       wrap_content,PranSelmanEspasKelBezwenAn-->
+
+    <View
+        android:layout_width="130dp"
+        android:layout_height="150dp"
+        android:background="@color/teal_200"
+        android:layout_gravity="start"
+        />
+
+    <View
+        android:layout_width="130dp"
+        android:layout_height="150dp"
+        android:background="#4CAF50"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <View
+        android:layout_width="130dp"
+        android:layout_height="150dp"
+        android:background="#C4E628"
+        android:layout_gravity="end"
+        />
+
+    <View
+        android:layout_width="130dp"
+        android:layout_height="150dp"
+        android:background="@color/purple_700"
+        android:layout_gravity="start|center"
+        />
+
+    <View
+        android:layout_width="130dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:background="@color/purple_200" />
+
+    <View
+        android:layout_width="130dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center|right"
+        android:background="#F44336" />
+
+    <View
+        android:layout_width="130dp"
+        android:layout_height="150dp"
+        android:layout_gravity="start|bottom"
+        android:background="#FF5722" />
+
+    <View
+        android:layout_width="130dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center|bottom"
+        android:background="#E91E63" />
+
+    <View
+        android:layout_width="130dp"
+        android:layout_height="150dp"
+        android:layout_gravity="end|bottom"
+        android:background="#00BCD4" />
+
+
+</FrameLayout>
